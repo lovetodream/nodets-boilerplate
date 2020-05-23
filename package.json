@@ -4,8 +4,8 @@
   "description": "A basic boilerplate for any NodeJS + Typescript projects with a few packages to get started right away",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run dist && node dist/index.js",
     "start:dev": "nodemon",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
